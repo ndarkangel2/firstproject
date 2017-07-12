@@ -1,0 +1,16 @@
+#include <iostream> 
+#include <stdio.h>      
+#include <stdlib.h>      
+#include <string> 
+#include <time.h>
+#include "People.h"
+#include "Elevator.h"
+using namespace std;
+
+int main()
+{
+	srand(time(NULL));
+	Elevator E; 
+	E.Simulate();
+	system("pause");
+}
